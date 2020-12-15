@@ -1,0 +1,66 @@
+button {
+  background: #9B9BCA;
+  border-radius: 10px;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 56px;
+}
+
+.container {
+  max-width: 1600;
+  margin: 0 auto;
+}
+
+.top-section {
+  min-height: 737px;
+  background: url("./assets/top-background.jpg") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.top-section-header {
+  align-items: center;
+  grid-template-columns: 1fr 1fr auto 2fr 1fr;
+  display: grid;
+  min-height: 116px;
+}
+
+.header-logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.header-content {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.top-section-content {
+  max-width: 751px;
+}
+
+.top-section-content__title {
+  color: #696A86;
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 400;
+}
+
+.top-section-content__sub-title {
+  font-weight: 400;
+  line-height: 27px;
+  color: #696A86;
+  font-size: 18px;
+}
+
+/*
+E:\frontend-course-2020\homeworks\andrey.kushch_andrey241991\9-layouts\grid\assets\top-background.jpg
+homeworks\andrey.kushch_andrey241991\9-layouts\grid\assets\top-background.jpg */
